@@ -24,6 +24,7 @@ unsigned int GetAppHeight()
 
 void Init()
 {
+	int a;
 	if (FAILED(InitDX(GetHWND(), SCREEN_WIDTH, SCREEN_HEIGHT, false)))
 	{
 		Error("directx initialize failed.");
